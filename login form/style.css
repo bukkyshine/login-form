@@ -1,0 +1,388 @@
+.Bbody{
+    width: 1300px;
+    height: 700px;
+    position: relative;
+    background: #f0ecec;
+}
+
+.main{
+    width: 900px;
+    height: 700px;
+    position: relative;
+    border: solid 1px #ffffff5e;
+    left: 165px;
+    display: inline-block;
+    background: linear-gradient(#c21a8f,#3360f3);
+}
+
+.body{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border: solid 1px #ffffff5e;
+    background: #fffdfd;
+    left: 30%;
+    padding: 2px;
+    top: 60px;
+}
+.input1{
+    padding: 11px;
+    position: relative;
+    width: 240px;
+    height: 22px;
+    left: 20px;
+    border-style: none; 
+    border-radius: 2px;
+    background: #e6e4e4;
+font-size: 0.8em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input1::placeholder{
+    position: relative;
+    left: 40px;
+}
+
+.input{
+    padding: 5px;
+    position: relative;
+    width: 250px;
+    height: 32px;
+    left: 20px;
+    border-style: none;
+    border-radius: 2px;
+    background: #e6e4e4;
+    color: #a5a3a3;
+    font-size: 2em;
+    text-indent: 50px;
+    }
+    .input[type = "password"]{
+        opacity: 1; 
+        position: relative;
+        left: 70px,
+    }
+    .l1{
+        display: block;
+        position: relative;
+        left: 25px;
+        bottom: 10px;
+        text-align: justify;
+        font-size: 0.8em;
+        color: #a5a3a3;
+        cursor: pointer;
+    }
+    
+.greekmark{
+    position: absolute;
+    top: 0;
+    height: 10px;
+    width: 10px;
+    right: 290px;
+    background: #fff;
+    border: 1.5px solid#f32dc2;
+    color: #e03daa;
+    border-radius: 3px;
+}
+
+input[type='checkbox']{
+    visibility: hidden;
+}
+.l1 .greekmark::after {
+    left: 2px;
+    bottom: 2.5px;
+    width: 3px;
+    height: 5px;
+    border: 0.5px solid#f32d6f;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+}
+.greekmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+.p1{
+    position: relative;
+    left: 100px;
+}
+h1{
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+.sign{
+    position: relative;
+    text-align: center;
+    top: 80px;
+ color: #a5a3a3;
+ font-size: 13px;
+}
+a{
+    color: #a5a3a3;   
+}
+.fb{
+width: 121px;
+height: 20px;
+text-align: center;
+border: 0.5px solid;
+color: #ece5e5;
+}
+.fb::placeholder{
+    font-size: 0.8em;
+    font-weight: 700;
+color: #0d0dbe;
+}
+.google{
+width: 121px;
+height: 20px;
+text-align: center;
+border: 0.5px solid;
+color: #ece2e2;
+font-weight: 700;
+font-size: 0.7em;
+}
+.input2{
+position: relative;
+left: 22px;
+top: 10px;
+box-shadow: none;
+}
+.login{
+    background: #ce307a;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    padding: 13px;
+    position: relative;
+    width: 257px;
+    height: 40px;
+    left: 20px;
+    border-style: none;
+    border-radius: 2px;
+    
+}
+.p1{
+    position: relative;
+    font-size: 15px;
+    color: #a5a3a3;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: #555353;
+}
+
+.imgs{
+    background-color:inherit;
+    height:2vh;
+    width:1vw;
+    position: relative;
+    bottom: -3px;
+    right: 35%;
+}
+.imgs1{
+    position: relative;
+    right: 38%;
+}
+.img2{
+    background-color:inherit;
+    height:2vh;
+    width:1.5vw;
+    position: relative;
+    bottom: 1px;
+    right: 75%;
+    background-image: #b3b0b0;
+}
+@media only screen and (max-width: 768px){
+    .Bbody{
+        width: 900px;
+        height: 800px;
+        }
+
+    .main{   
+        width: 700px;
+        height: 600px;
+        left: 50px;
+        
+    }
+    
+    .body{
+        width: 247px;
+        height: 400px;
+        left: 30%;
+        padding: 2px;
+        top: 45px;
+    }
+    .greekmark{
+       
+        right: 240px;
+        
+    }
+
+    .input1{
+        padding: 9px;
+        width: 190px;
+        height: 16px;
+        left: 16px;
+        font-size: 0.7em;
+    }
+    .input1::placeholder{
+    left: 35px;
+    }
+    
+    .input{
+        padding: 4px;
+         width: 200px;
+        height: 23px;
+        left: 16px;
+       font-size: 1.5em;
+        }
+        .checkbox{
+            left: 17px;
+            }
+        .l1{
+            left: 25px;
+           }
+         input[type='checkbox']{
+            width: 7px;
+            height: 7px;
+           right: 7px;
+           }
+           .p1{
+        left: 80px;
+        }
+        h1{
+            padding: 10px;
+        }
+        .sign{
+            top: 50px;
+            font-size: 10px;
+        }
+        
+        .fb{
+        width: 100px;
+        height: 17px;
+        }
+        .google{
+        width: 100px;
+        height: 17px;
+        }
+        .input2{
+        left: 18px;
+        top: 7px;
+        }
+        .login{
+            font-size: 0.8em;
+            padding: 10px;
+            width: 210px;
+            left: 17px;    
+        }
+        
+        .p1{
+           font-size: 12px;
+           }
+        h1{
+            font-size: 1.2em;
+        }
+        .l1{
+            font-size: 0.6em;
+        }
+        }
+        @media only screen and (max-width: 425px){
+            .Bbody{
+                width: 800px;
+                height: 800px;
+                }
+        
+            .main{   
+                width: 600px;
+                height: 600px;
+                left: 55px;
+                
+            }
+            
+            .body{
+                width: 230px;
+                height: 350px;
+                left: 25%;
+                padding: 2px;
+                top: 40px;
+            }
+
+            .greekmark{
+       
+                right: 220px;
+                }
+        
+            .input1{
+                padding: 7px;
+                width: 180px;
+                height: 14px;
+                left: 14px;
+                font-size: 0.5em;
+            }
+            .input1::placeholder{
+            left: 30px;
+            }
+            
+            .input{
+                padding: 3px;
+                 width: 190px;
+                height: 20px;
+                left: 14px;
+               font-size: 1.2em;
+                }
+                .checkbox{
+                    left: 15px;
+                    }
+                .l1{
+                    left: 20px;
+                   }
+                 input[type='checkbox']{
+                    width: 5px;
+                    height: 5px;
+                   right: 5px;
+                   }
+                   .p1{
+                left: 70px;
+                }
+                h1{
+                    padding: 8px;
+                }
+                .sign{
+                    top: 45px;
+                    font-size: 8px;
+                }
+                
+                .fb{
+                width: 80px;
+                height: 15px;
+                }
+                .google{
+                width: 80px;
+                height: 15px;
+                }
+                .input2{
+                left: 16px;
+                top: 5px;
+                }
+                .login{
+                    font-size: 0.6em;
+                    padding: 8px;
+                    width: 175px;
+                    left: 15px;    
+                }
+                
+                .p1{
+                   font-size: 10px;
+                   }
+                h1{
+                    font-size: 1em;
+                }
+                .l1{
+                    font-size: 0.5em;
+                }
+                }
